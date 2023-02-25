@@ -10,8 +10,8 @@ h2{
     background-image: linear-gradient(
             rgba(0, 0, 0, 0.3),
             rgba(0, 0, 0, 0.3)
-          ),url(https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
-          background-position:center;
+          ),url(/images/kultrun.jpg);
+          background-position: center;
     background-color: black;
     background-repeat: no-repeat;
     border-radius: 4px;
