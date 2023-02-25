@@ -1,15 +1,26 @@
-h1{
-    color: red;
+:root{
+    --main-font-family: "Poppins", sans-serif;
+    --secondary-font-family: 'Source Sans Pro', sans-serif;
+    --main-branding-color: #3E6345;
+    --secondary-color: whitesmoke; 
+
 }
 
-h2{
-    color: white;
+h1, h2{
+    font-family: var(--secondary-font-family);
+    color: var(--main-branding-color)
 }
+
+body{
+    font-family: var(--main-font-family);
+    background-color: var(--secondary-color);
+}
+
 .hero{
     text-align: center;
     background-image: linear-gradient(
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
           ),url(/images/kultrun.jpg);
           background-position: center;
     background-color: black;
@@ -21,6 +32,11 @@ h2{
     margin: 20px;
     margin-bottom: 50px;
 }
+
+.hero h1, h2{
+    color: var(--secondary-color);
+}
+
 .box-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
