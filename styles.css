@@ -5,48 +5,6 @@
   --secondary-color: whitesmoke;
   --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-section {
-  background-color: white;
-  padding: 20px;
-}
-
-body {
-  font-family: var(--main-font-family);
-  background-color: var(--main-branding-color);
-}
-
-h1,
-h2 {
-  font-family: var(--secondary-font-family);
-  color: var(--main-branding-color);
-}
-
-main h2 {
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 3px;
-}
-
-main h3 {
-  font-size: 40px;
-  color: var(--main-branding-color);
-  margin: 0px;
-}
-
-.mapu-intro {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-style: italic;
-  background-color:#3e6345;
-  opacity: 0.5;
-  color: white;
-  padding: 40px;
-  border-radius: 4px;
-  margin: 200px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 
 .website-container {
   max-width: 1400px;
@@ -92,6 +50,49 @@ main h3 {
   box-shadow: var(--box-shadow);
   text-decoration: none;
   color: var(--main-branding-color);
+}
+
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--main-branding-color);
+}
+
+h1,
+h2 {
+  font-family: var(--secondary-font-family);
+  color: var(--main-branding-color);
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+main h3 {
+  font-size: 40px;
+  color: var(--main-branding-color);
+  margin: 0px;
+}
+
+.mapu-intro {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  background-color:#3e6345;
+  opacity: 0.5;
+  color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .box-container {
@@ -148,6 +149,39 @@ main h3 {
   .hero p {
     font-size: 18px;
   }
+
+.box-container {
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  padding: 0px;
+}
+
+
+main h2 {
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+main h3 {
+  font-size: 30px;
+  color: var(--main-branding-color);
+  margin: 0px;
+}
+
+
+.mapu-intro {
+  padding: 10px;
+  margin: 0px;
+}
+
+img{
+    max-width: 350px;
+}
+
+section{
+    margin:0px;
+}
+
 
   .footer-grid {
     grid-template-columns: 1fr 1fr 1fr;
