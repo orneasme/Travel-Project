@@ -63,6 +63,10 @@ h2 {
   color: var(--main-branding-color);
 }
 
+.img-responsive{
+    max-width: 100%;
+}
+
 section {
   background-color: white;
   padding: 20px;
@@ -172,10 +176,6 @@ main h3 {
 .mapu-intro {
   padding: 10px;
   margin: 0px;
-}
-
-img{
-    max-width: 350px;
 }
 
 section{
