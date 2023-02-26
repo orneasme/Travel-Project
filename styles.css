@@ -1,163 +1,171 @@
-:root{
-    --main-font-family: "Poppins", sans-serif;
-    --secondary-font-family: 'Source Sans Pro', sans-serif;
-    --main-branding-color: #3E6345;
-    --secondary-color: whitesmoke; 
-    --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
+:root {
+  --main-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Source Sans Pro", sans-serif;
+  --main-branding-color: #3e6345;
+  --secondary-color: whitesmoke;
+  --box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-section{
-background-color: white;
-padding: 20px}
-
-body{
-    font-family: var(--main-font-family);
-    background-color: var(--main-branding-color);
+section {
+  background-color: white;
+  padding: 20px;
 }
 
-h1, h2{
-    font-family: var(--secondary-font-family);
-    color: var(--main-branding-color)
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--main-branding-color);
 }
 
- h2{
-    text-transform: uppercase;
-    font-size: 14px;
+h1,
+h2 {
+  font-family: var(--secondary-font-family);
+  color: var(--main-branding-color);
 }
 
-
-.website-container{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-.hero{
-    text-align: center;
-    background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ),url(/images/kultrun.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 4px;
-    color: white;
-    padding: 200px;
-    margin: 0px;
-    
+main h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
 }
 
-.hero h1{
-    color: var(--secondary-color);
-    line-height: 1.5;
-    font-size: 96px;
+main h3 {
+  font-size: 40px;
+  color: var(--main-branding-color);
+  margin: 0px;
 }
 
-.hero h2{
-  color: var(--secondary-color);
-    line-height: 1.5;
-    font-size: 68px;;
+.mapu-intro {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  background-color:#3e6345;
+  opacity: 0.5;
+  color: white;
+  padding: 40px;
+  border-radius: 4px;
+  margin: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.hero p{
-    font-size: 32px;
-    letter-spacing: 1.5px;
+.website-container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
-
-.hero a{
-    text-align: center;
-    display: inline-block;
-    background-color: white;
-    margin-top:32px;
-    padding:15px;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow);
-    text-decoration: none;
-    color:var(--main-branding-color)
-}
-
-.box-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:20px;
-    
-}
-
-
-.footer-grid{
-    background-image:linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-          ), url(/images/totem.jpg);
-          background-position: center;
-    display:grid;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:10px;
-    row-gap: 20px;
-    column-gap: 20px;
-    font-size: 12px;
-    padding: 50px;
-    max-width: 1400px;
-
-
-    
-}
-
-.footer-title{
-    font-weight: bold;
-    font-size: larger;
-    color: white
-} 
-
-.footer-grid p {
-    color: white;
-}
-@media(max-width:900px){
-
-    .website-container{
-    max-width: 600px;
-    margin: 0 auto;
-    }
-    .hero{
-    padding: 60px;
-    margin: 0px;
-    
+.hero {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/kultrun.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  color: white;
+  padding: 200px;
+  margin: 0px;
 }
 
 .hero h1 {
+  color: var(--secondary-color);
+  line-height: 1.5;
+  font-size: 96px;
+}
+
+.hero h2 {
+  color: var(--secondary-color);
+  line-height: 1.5;
+  font-size: 68px;
+}
+
+.hero p {
+  font-size: 32px;
+  letter-spacing: 1.5px;
+}
+
+.hero a {
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  margin-top: 32px;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  text-decoration: none;
+  color: var(--main-branding-color);
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 60px;
+}
+
+.footer-grid {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/totem.jpg);
+  background-position: center;
+  display: grid;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  row-gap: 20px;
+  column-gap: 20px;
+  font-size: 12px;
+  padding: 50px;
+  max-width: 1400px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+
+.footer-grid p {
+  color: white;
+}
+@media (max-width: 900px) {
+  .website-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .hero {
+    padding: 60px;
+    margin: 0px;
+  }
+
+  .hero h1 {
     font-size: 48px;
-}
+  }
 
-.hero h2{
-    font-size: 25px;;
-}
+  .hero h2 {
+    font-size: 25px;
+  }
 
-.hero p{
+  .hero p {
     font-size: 18px;
-}
+  }
 
-
-.footer-grid{
+  .footer-grid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:10px;
+    grid-gap: 10px;
     row-gap: 20px;
     column-gap: 20px;
     font-size: 12px;
-    padding: 10px
-    
-}
+    padding: 10px;
+  }
 
-.footer-title{
+  .footer-title {
     font-weight: bold;
     font-size: 10px;
-    color: white
-} 
+    color: white;
+  }
 
-.footer-grid p {
+  .footer-grid p {
     color: white;
     font-size: 10px;
-}
-
+  }
 }
