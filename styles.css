@@ -72,6 +72,39 @@ section {
   padding: 20px;
 }
 
+.section-secondary{
+    background-color: gainsboro;
+
+}
+
+.section-secondary h2, .section-secondary h3{
+text-align: center;
+}
+
+.card-image-top{
+    margin-top:60px;
+}
+
+.card-image-top img{
+    max-width: 200px;
+    border-radius: 4px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.card-subtitle{
+font-size: 18px;
+}
+
+.card-body{
+    font-size: smaller;
+}
+
+
 main h2 {
   text-transform: uppercase;
   font-size: 16px;
